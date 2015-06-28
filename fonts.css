@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Conv_Pragmatica_Cyrillic';
+	src: url('fonts/Pragmatica_Cyrillic.eot');
+	src: local('☺'), url('fonts/Pragmatica_Cyrillic.woff') format('woff'), url('fonts/Pragmatica_Cyrillic.ttf') format('truetype'), url('fonts/Pragmatica_Cyrillic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_PragmaticaLightCTT Regular';
+    src: url('fonts/PragmaticaLightCTT Regular.eot');
+    src: local('☺'), url('fonts/PragmaticaLightCTT Regular.woff') format('woff'), url('fonts/PragmaticaLightCTT Regular.ttf') format('truetype'), url('fonts/PragmaticaLightCTT Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

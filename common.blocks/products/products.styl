@@ -1,0 +1,34 @@
+.products
+  a:hover
+    text-decoration underline
+  &__head
+    i
+      width 1.6em
+      height 1.6em
+      float left
+  &__text
+    font-family 'Source Sans Pro', sans-serif
+    font-size (15/16)em
+    text-transform uppercase
+    font-weight bold
+    padding 0.5em 0 0.5em 2.2em
+
+  .category
+    &__item
+      background: url(../../img/ul-closed.png) 0 0.6em no-repeat;
+      font-family 'Conv_Pragmatica_Cyrillic',Sans-Serif
+      line-height (28/16)em
+      padding-left 0.9em
+    &__item_opened
+      background: url(../../img/ul-opened.png) 0 0.6em no-repeat;
+    &__item_no-child
+      background: url(../../img/ul-no-child.png) 0 0.6em no-repeat;
+
+.sub-category
+  &__item
+    font-family 'Conv_PragmaticaLightCTT Regular',Sans-Serif
+    list-style-type disc
+    margin-left 1.5em
+    font-size (14/16)em
+    &:last-child
+      padding-bottom 0

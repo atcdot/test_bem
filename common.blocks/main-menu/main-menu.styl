@@ -1,0 +1,83 @@
+.main-menu
+  background #003952
+  width 61.25em
+  height (60/16)em
+  margin 0 auto
+
+  .menu
+    float left
+    overflow visible
+
+    .menu-item
+      display inline-block
+      padding ((60 - 17)/2/16)em 0
+
+      .link
+        font-family 'Conv_Pragmatica_Cyrillic',Sans-Serif
+        font-size (15/16)em
+        padding ((60 - 15)/2/15)em (20/15)em
+        color #fff
+
+        .link__text
+          padding 0.3em
+
+      .link_hovered
+        .link__text
+          border-bottom (2/15)em solid #fff
+
+
+      &:first-child
+        background #fff
+        padding ((60 - 17)/2/16)em 0
+
+        .link
+          padding ((60 - 15)/2/15)em (35/15)em
+          color #000
+
+        .link_hovered
+          .link__text
+            border-bottom (2/15)em solid #000
+
+  .search
+    float right
+    margin (14/16)em (21/16)em
+    height (32/16)em
+
+    i
+      position relative
+      padding 0.5em
+
+    input
+      font-family 'Conv_Pragmatica_Cyrillic',Sans-Serif
+      font-size (14/16)em
+      height (32/14)em
+      width (204/14)em
+      line-height (32/14)em
+      border: none;
+      outline: none;
+      border-radius 2em
+      padding 0.15em 0
+      padding-left (48/14)em
+      margin-left -(32/14)em
+
+      &::-webkit-input-placeholder
+        color #b4b4b4
+        padding 0.15em 0
+      &::-moz-placeholder
+        color #b4b4b4
+        padding 0.15em 0
+      &:-moz-placeholder
+        color #b4b4b4
+        padding 0.15em 0
+      &:-ms-input-placeholder
+        color #b4b4b4
+        padding 0.15em 0
+
+      &:focus::-webkit-input-placeholder
+        color: transparent
+      &:focus::-moz-placeholder
+        color: transparent
+      &:focus:-moz-placeholder
+        color: transparent
+      &:focus:-ms-input-placeholder
+        color: transparent

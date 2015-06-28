@@ -1,0 +1,52 @@
+.top-nav
+  display table
+  width 61.5em
+  height 1.5em
+  line-height 1.5em
+  padding 3em 0 1.5em
+  margin 0 auto
+  div
+    display table-cell
+    text-align center
+    vertical-align middle
+    div
+      display inline-block
+    i
+      width 1.5em
+      margin 0 0.8em
+
+
+  .logo
+    .link
+      i
+        width 7em
+        margin 0 0.8em 0 0
+
+  .vip
+    .link
+      &__text
+        font-size 0.75em
+        color #00687a
+        font-family: 'Source Sans Pro', sans-serif;
+      i
+        width 2.5em
+
+  .add-company
+    .link
+      &__text
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight bold
+        color #bbb
+
+
+  .callback
+    .link
+      &__text
+        @extends .top-nav .add-company .link__text
+        color #ff8200
+
+
+  .bucket
+    .link
+      &__text
+        @extends .top-nav .add-company .link__text
